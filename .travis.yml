@@ -31,6 +31,7 @@ matrix:
 #       - sudo: required
 #       - sudo: required
 #         dist: trusty
+#
 
 before_install:
 - travis_retry sudo apt-get update -qq
